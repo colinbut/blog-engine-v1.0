@@ -6,6 +6,6 @@
 	<body>
 		<a href="addEntry.html">add blog entry</a>
 		<a href="viewAll.php">view all</a>
-		<a href="#">search</a>
+		<a href="search.php">search</a>
 	</body>
 </html>
