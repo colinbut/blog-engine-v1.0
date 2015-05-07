@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<a href="addEntry.html">add blog entry</a>
-		<a href="#">view all</a>
+		<a href="viewAll.php">view all</a>
 		<a href="#">search</a>
 	</body>
 </html>
