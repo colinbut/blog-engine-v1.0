@@ -1,0 +1,67 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	/*background: aqua;*/
+	margin: 0px;
+	padding: 0;
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+#side-nav-bar {
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: left;
+	background: black;
+	color: white;
+}
+
+
+#side-nav-bar p {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	margin: 0;
+}
+
+#content {
+	margin-left: 25%;
+	height: 100%;
+}
+
+#blog_container {
+	margin: 20px;
+	width: 80%;
+	height: 100%;
+	overflow: scroll;
+	/*border: 1px solid red;*/
+	/*background: red;*/
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.title {
+	/*background: blue;*/
+}
+
+.date {
+	/*background: yellow;*/
+	color: #9a9a9a;
+	padding-bottom: 5px;
+}
+
+.blog {
+	/*background: orange;*/
+	/*margin-bottom: 10px;*/
+	padding-bottom: 10px;
+}

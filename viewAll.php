@@ -10,7 +10,7 @@
 
 	// insert
 	// this has SQL Injection implications!
-	$sql_query = "SELECT * FROM blog_entries LIMIT 10";
+	$sql_query = "SELECT * FROM blog_entries";
 	//echo "$sql_query";
 
 	// executes the sql query
