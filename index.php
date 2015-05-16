@@ -1,24 +1,9 @@
 <?php require "dbAuth.php" ?>
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Blog Engine v1.0</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
+	<?php include "header.php" ?>
 	<body>
-
-	<div id="side-nav-bar">
-		<input type="text" name="search" value="search" />
-		<input type="submit" value="Search"/>
-		<h1>Blog Engine v1.0</h1>
-		<a href="addEntry.html">new post</a>
-		<br />
-		<a href="viewAll.php">list posts</a>
-		<br />
-		<!--<a href="search.php">search</a>
-		<br />-->
-		<p>&copy; Copyright 2015. All rights Reserved.</p>
-	</div>
+	<?php include "navigation.php" ?>
 	<div id="content">
 		<?php
 
@@ -50,7 +35,5 @@
 
 		?>
 	</div>
-
-		
 	</body>
 </html>
