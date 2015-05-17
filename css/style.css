@@ -19,21 +19,25 @@ body {
 	height: 100%;
 	position: relative;
 	float: left;
-	background: black;
+	background: #28c87f;
 	color: white;
 }
 
+#side-nav-bar h1 { padding-left: 10px;}
+#side-nav-bar a { padding-left: 20px; }
 
 #side-nav-bar p {
 	position: absolute;
 	bottom: 10px;
 	left: 0;
 	margin: 0;
+	padding-left: 10px;
 }
 
 #content {
 	margin-left: 25%;
 	height: 100%;
+	background: #7255ca;
 }
 
 #blog_container {
@@ -56,7 +60,7 @@ p {
 }
 
 .title {
-	/*background: blue;*/
+	color: #e2ffff;
 }
 
 .date {
@@ -66,8 +70,7 @@ p {
 }
 
 .blog {
-	/*background: orange;*/
-	/*margin-bottom: 10px;*/
+	color: #e2ffff;
 	padding-bottom: 10px;
 }
 
@@ -75,11 +78,19 @@ a {
 	text-decoration: none !important;
 }
 
-a {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
+a {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color:white;}  /* mouse over link */
+a:active {color:white;}  /* selected link */
 
 .searchBox {
 	border: 0px none;
+}
+
+.submit-btn {
+	float: right;
+}
+
+.reset-btn {
+	float: right;
 }
