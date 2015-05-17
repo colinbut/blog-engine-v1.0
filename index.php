@@ -15,7 +15,7 @@
 
 			// insert
 			// this has SQL Injection implications!
-			$sql_query = "SELECT * FROM blog_entries LIMIT 10";
+			$sql_query = "SELECT * FROM blog_entries ORDER BY entrydate DESC LIMIT 10";
 
 			// executes the sql query
 			$result = mysql_query($sql_query) or show_error();
