@@ -1,9 +1,9 @@
-<?php require "dbManager.php" ?>
+<?php require "dataAccess/dbManager.php" ?>
 <!DOCTYPE html>
 <html>
-	<?php include "header.php" ?>
+	<?php include "includes/header.php" ?>
 	<body>
-	<?php include "navigation.php" ?>
+	<?php include "includes/navigation.php" ?>
 	<div id="content">
 		<div id="blog_container">
 			<?php

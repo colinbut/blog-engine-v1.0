@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<?php include "header.php" ?>
+	<?php include "includes/header.php" ?>
 	<body>
-	<?php include "navigation.php" ?>
+	<?php include "includes/navigation.php" ?>
 		<div id="content">
 			<?php include "addEntry.html" ?>
 		</div>

@@ -1,5 +1,5 @@
 <?php
-	include "dbManager.php";			
+	include "dataAccess/dbManager.php";			
 			
 	// Check to see whether the value has been set
 	// $_POST array - entryTitle entryText keys
