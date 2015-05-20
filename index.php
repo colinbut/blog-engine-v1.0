@@ -5,11 +5,6 @@
 	<?php include "includes/header.php" ?>
 	<body>
         <?php include "includes/navigation.php" ?>
-        <div id="logout">
-            <form action="login/logout.php" method="POST">
-                <input type="submit" value="Logout" />
-            </form>
-        </div>
         <div id="content">
             <div id="blog_container">			
             <?php 

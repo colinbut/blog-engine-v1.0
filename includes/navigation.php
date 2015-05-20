@@ -16,5 +16,10 @@
 	<br />
 	<br />
 	<a href="about.php">about</a>
+    <div id="logout">
+        <form action="login/logout.php" method="POST">
+            <input type="submit" value="Logout" />
+        </form>
+    </div>
 	<?php include "footer.php" ?>
 </div>
