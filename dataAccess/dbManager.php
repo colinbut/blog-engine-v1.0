@@ -54,4 +54,15 @@
 
 	}
 
+    function getUserCredentials ($user, $pwd) {
+        
+        connect();
+    
+        $sql = "SELECT * FROM blog_user WHERE email = '" . $user . "' AND password = '" . $pwd . "';";
+        
+        $result = mysql_query($sql) or show_error();
+    
+        return $result;
+    }
+
 ?>
