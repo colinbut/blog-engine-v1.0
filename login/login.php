@@ -5,7 +5,7 @@
     </head>
     <body>
         <div id="form-container">
-            <form action="addEntryForm.php" method="POST" >
+            <form action="processLogin.php" method="POST" >
                 <label>username:</label>
                 <input type="text" name="USER"/>
                 <label>password:</label>
