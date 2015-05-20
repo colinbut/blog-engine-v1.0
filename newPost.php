@@ -1,3 +1,4 @@
+<?php include "includes/authentication.php" ?>
 <!DOCTYPE html>
 <html>
 	<?php include "includes/header.php" ?>

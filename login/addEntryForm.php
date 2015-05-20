@@ -1,5 +1,7 @@
 <?php
 
+    session_start();
+
     include "../dataAccess/dbManager.php";
 
     function authenticate($user, $pwd) {
@@ -29,6 +31,7 @@
         exit;
     }
     else{
+        $_SESSION['login'] = $user;
         header('Location: ../index.php'); 
     }
 

@@ -1,3 +1,4 @@
+<?php include "includes/authentication.php" ?>
 <?php require "dataAccess/dbAuth.php" ?>
 <!DOCTYPE html>
 <html>

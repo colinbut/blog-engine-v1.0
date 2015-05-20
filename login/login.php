@@ -1,5 +1,8 @@
 <html>
-    <head></head>
+    <head>
+        <title>Blog Engine v1.0 - Login</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
     <body>
         <div id="form-container">
             <form action="addEntryForm.php" method="POST" >

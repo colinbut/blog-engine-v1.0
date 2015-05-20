@@ -9,7 +9,7 @@
 		</table>
 	</form>
 	<h1><a href="index.php">Blog Engine v1.0</a></h1>
-	<a href="login/login.php">new post</a>
+	<a href="newPost.php">new post</a>
 	<br />
 	<br />
 	<a href="viewAll.php">list posts</a>
