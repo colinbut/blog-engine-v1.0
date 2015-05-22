@@ -2,5 +2,5 @@
 	<title>Blog Engine v1.0</title>
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/search.css">
 </head>

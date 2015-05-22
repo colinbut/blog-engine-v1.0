@@ -10,15 +10,15 @@
                 <table align="center">
                     <tr>
                         <td><label>Username:</label></td>
-                        <td><input type="text" name="USER"/></td>
+                        <td><input type="text" name="USER" placeholder="username"/></td>
                     </tr>
                     <tr>
                         <td><label>Password:</label></td>
-                        <td><input type="password" name="PW" /></td>
+                        <td><input type="password" name="PW" placeholder="password"/></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td><input type="submit" value="Login" /></td>
+                        <td><input type="submit" value="Login"/></td>
                     </tr>
                 </table>
             </form>

@@ -22,8 +22,8 @@ body {
 	color: white;
 }
 
-#side-nav-bar h1 { padding-left: 10px;}
-#side-nav-bar a { padding-left: 20px; }
+#side-nav-bar h1#header-title { padding-left: 10px;}
+#side-nav-bar a.link { padding-left: 20px; }
 
 #side-nav-bar p {
 	position: absolute;
@@ -96,4 +96,21 @@ a:active {color:white;}  /* selected link */
 
 .reset-btn {
 	float: right;
+}
+
+/** logout area */
+#logout {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+input[type="submit"].logoutButton {
+    width: 100%;
+    border: 2px solid aquamarine;
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: darkgray;   
 }

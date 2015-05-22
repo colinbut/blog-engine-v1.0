@@ -1,0 +1,27 @@
+input[type="text"].searchBox {
+    width: 100%;
+    height: 25px;    
+}
+
+::-webkit-input-placeholder {
+   font-size: 12px;
+   font-style: italic;
+}
+
+input[type="submit"].searchButton {
+    width: 100%;
+    border: 2px solid aquamarine;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: darkgray;   
+}
+
+table#search-table {
+    width: 100%;
+}
+
+td.search-row {
+    width: 100%;
+}
