@@ -3,4 +3,5 @@
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/addEntry.css">
 </head>
