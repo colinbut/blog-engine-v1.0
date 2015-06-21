@@ -18,7 +18,7 @@ body {
 	height: 100%;
 	position: relative;
 	float: left;
-	background: #28c87f;
+	background: #404040;
 	color: white;
 }
 
@@ -36,7 +36,7 @@ body {
 #content {
 	margin-left: 25%;
 	height: 100%;
-	background: #7255ca;
+	background: #F6F6F6;
 }
 
 #blog_container {
@@ -55,7 +55,7 @@ p {
 #about_container h1 {
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: black;
 }
 
 ::-webkit-scrollbar { 
@@ -63,17 +63,16 @@ p {
 }
 
 .title {
-	color: #e2ffff;
+	color: black;
 }
 
 .date {
-	/*background: yellow;*/
 	color: #9a9a9a;
 	padding-bottom: 5px;
 }
 
 .blog {
-	color: #e2ffff;
+	color: black;
 	padding-bottom: 10px;
 }
 
@@ -90,6 +89,7 @@ a:active {color:white;}  /* selected link */
 	border: 0px none;
 }
 
+/* for all buttons on all pages atm */
 .submit-btn {
 	float: right;
 }

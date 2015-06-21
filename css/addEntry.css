@@ -1,10 +1,30 @@
+
+#new_post_header {
+    width: 700px;
+    margin-left: 100px;
+    padding-top: 30px;
+    border-bottom: 1px solid grey;
+}
+
+/* escape spacing etc... */
+#new_post_header h1 {
+    padding: 0;
+	margin: 0;   
+}
+
+#new_post_container {
+    margin-left: 100px; 
+    margin-top: 50px;
+}
+
 input[type="text"].title {
-    width: 500px;
-    height: 20px;    
+    width: 600px;
+    height: 20px; 
+    border: 1px solid black;
 }
 
 textarea.blogpost {
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
@@ -15,4 +35,5 @@ input[type="submit"].submit-btn, input[type="reset"].reset-btn {
     background-color: aquamarine;
     font-weight: bold;
     color: darkgray;   
+    margin-left: 5px; /* put some space between the buttons */
 }
