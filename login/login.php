@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../css/login.css">
     </head>
     <body>
+        <h1 id="title">Blog Engine v1.0</h1>
         <div id="form-container">
             <p>Sign In</p>
             <form action="processLogin.php" method="POST" >
