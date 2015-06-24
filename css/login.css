@@ -47,10 +47,11 @@ input[type="text"], input[type="password"] {
 input[type="submit"] {
     float: right;
     clear: both;
-    border: 2px solid aquamarine;
+    border: 2px solid #E05151;
     padding: 5px 10px !important;
     font-size: 14px !important;
-    background-color: aquamarine;
+    background-color: #E05151;
     font-weight: bold;
-    color: darkgray;
+    color: #333333;
+    cursor: pointer;
 }

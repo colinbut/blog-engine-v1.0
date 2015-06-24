@@ -10,12 +10,13 @@ input[type="text"].searchBox {
 
 input[type="submit"].searchButton {
     width: 100%;
-    border: 2px solid aquamarine;
+    border: 2px solid #E05151;
     padding: 5px 10px !important;
     font-size: 12px !important;
-    background-color: aquamarine;
+    background-color: #E05151;
     font-weight: bold;
-    color: darkgray;   
+    color: #333333;   
+    cursor: pointer;
 }
 
 table#search-table {
